@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BTApplication</string>
+    <string name="title_list_devices">Lista de dispositivos encontrados</string>
+    <string name="lbl_accept">Aceptar</string>
+    <string name="message_bt_not_supported">Tu dispositivo no cuenta con Bluetooth</string>
+    <string name="message_searching">Buscando…</string>
+    <string name="message_bt_required">Es necesario habilitar el Bluetooth</string>
+    <string name="message_location_required">Es necesario el permiso de ubicación</string>
+    <string name="option_refresh">Recargar</string>
+</resources>
