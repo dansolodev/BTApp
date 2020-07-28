@@ -119,7 +119,7 @@ class MainBTPresenter(private val context: Context, private val view: MainBTView
     }
 
     fun startBT() {
-
+        this.devicesList.clear()
         val leScanCallback = BluetoothAdapter.LeScanCallback { device, rssi, _ ->
             view.getCurrentActivity().runOnUiThread {
                 val nameDevice: String = if (device.name.isNullOrEmpty()) "SN" else device.name

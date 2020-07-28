@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity(), MainBTView {
         return when (item.itemId) {
 
             R.id.option_refresh -> {
+                showLoading()
                 presenter.startBT()
                 true
             }
